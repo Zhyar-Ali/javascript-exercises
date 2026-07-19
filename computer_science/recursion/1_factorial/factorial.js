@@ -1,5 +1,5 @@
 const factorial = function(number) {
-    if(!isNaN(number)){
+    if(Number.isInteger(number) && number >= 0){
         if(number === 0) {
             return 1;
         }else {
